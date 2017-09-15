@@ -1,1 +1,1 @@
-export * from './http/http.class';
+export * from './http/';
