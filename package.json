@@ -1,0 +1,31 @@
+{
+  "name": "rext",
+  "version": "0.0.1",
+  "description": "React Extensions Library",
+  "main": "./lib/rext.js",
+  "typings": "./lib/rext.d.ts",
+  "scripts": {
+    "clean": "rm -rf lib lib-esm",
+    "build": "npm run clean && tsc && tsc -m es6 --outDir lib-esm",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agroupp/rext.git"
+  },
+  "author": "Arthur Groupp <arth.groupp@gmail.com> (http://groupp.org)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/agroupp/rext/issues"
+  },
+  "homepage": "https://github.com/agroupp/rext#readme",
+  "dependencies": {
+    "rxjs": "^5.4.3"
+  },
+  "peerDependencies": {
+    "rxjs": "^5.4.3"
+  },
+  "devDependencies": {
+    "typescript": "^2.5.2"
+  }
+}
